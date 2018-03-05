@@ -1,5 +1,5 @@
 export namespace Types {
-  export class ClientOptions {
+  export interface ClientOptions {
     key?: string;
     clientId?: string;
 
@@ -7,8 +7,6 @@ export namespace Types {
      * When true, time is queried from the Ably servers. Example help text.
      */
     queryTime?: boolean;
-
-    constructor(options?: ClientOptions);
   }
 }
 

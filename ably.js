@@ -11,8 +11,4 @@ function Realtime(clientOptions) {
   }
 }
 
-var Types = {
-  ClientOptions: function(obj) { return (obj); }
-};
-
-module.exports = { Types: Types, Realtime: Realtime };
+module.exports = { Realtime: Realtime };
